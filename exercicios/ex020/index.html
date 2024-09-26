@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover {
+            color: red;
+        }
+        div:hover > p {
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo-classes</h1>
+    <p>Clique no texto abaixo</p>
+    <div>Clique aqui
+        <p>Este texto deve estar oculto
+        </p>
+    </div>
+
+</body>
+</html>

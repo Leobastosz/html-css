@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas e áudio!</title>
+    <h1>O primeiro teste</h1>
+    <p>Testaremos imagens dinâmicas, aumente e diminua a aba do seu navegador para verificar o funcionamento.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem dinâmica">
+    </picture>
+    <br>
+    <hr>
+    <h1>O segundo teste</h1>
+    <p>Abaixo deixarei um áudio com controles de reprodução disponíveis para o usuário.</p>
+    <audio preload="metadata" controls>
+        <source src="audio/happy-mistake.mp3" type="audio/mpeg">
+    </audio>
+</head>
+<body>
+    
+</body>
+</html>
