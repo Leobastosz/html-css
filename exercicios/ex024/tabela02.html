@@ -4,8 +4,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        caption {
+            padding: 10px;
+            border: 1px solid black;
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+        }
+        table{
+            width: 600px;  
+            border-collapse: collapse;
+            position: relative;  
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        td { 
+            border: 1px solid black;
+            padding: 7px;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(250, 215, 215);
+        }
+        th {
+            border: 1px solid black;
+            background-color: gray;
+            color: white;
+            padding: 5px;
+        }
+        tfoot{
+            background-color: gray;
+            color: white;
+            
+        }
+    </style>
 </head>
 <body>
-    <h1>Uso de tabelas grandes</h1>
+    <h1>População por estado</h1>
+    <br>
+
+    <table>
+        <caption>População dos 06 estados com mais habitantes</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 973 190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 322 692</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <Td>14 850 513</Td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915	</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 973 190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 322 692</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <Td>14 850 513</Td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915	</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 973 190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 322 692</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <Td>14 850 513</Td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915	</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 973 190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 322 692</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <Td>14 850 513</Td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915	</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row"> População total</th>
+                <td> <strong>128 800 987</strong></td>
+            </tr>
+        </tfoot>
+
+    </table>
 </body>
 </html>
