@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link exibido no Iframe</title>
+    <style>
+        iframe { 
+            width: 97vw;
+            border: 1px solid black;
+            height: 60vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p><a href="../../../projeto-android/index.html" target="frame">Projeto Android</a></p>
+    <p><a href="../../../projeto-cordel/cordel.html" target="frame">Projeto Cordel</a></p>
+
+    <iframe frameborder="0" name="frame"></iframe>
+
+    <iframe referrerpolicy="no-referrer" sandbox="sandbox" srcdoc="<h1> Olá! </h1> <p> Escolha uma das opções acima para carregar uma página no quadro superior</p>" frameborder="0"></iframe>
+    
+</body>
+</html>
