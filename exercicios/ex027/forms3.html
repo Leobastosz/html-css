@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários com diferentes atributos</title>
+    <style>
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="login.php" method="post" autocomplete="on">
+        <h1>Formulário de preenchimento de notas</h1>
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required autocomplete="name">
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required autocomplete="current-password">
+        </p>
+        <p>
+            <label for="inota">Nota:</label>
+            <input type="number" name="nota" id="inota" step="0.1" min="0" max="10" value="5.5">
+        </p>
+        <p>
+            <label for="imes">Período letivo</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <P>
+            <label for="ihora">Horário:</label>
+            <input type="time" name="hora" id="ihora">
+        </P>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
