@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* { 
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+nav {
+    display: none;
+}
+header {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+article > p{
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    font-size: 2em;
+    line-height: 1em;
+}
+article > h2 { 
+    padding:10px;
+    padding-bottom: 20px;
+}

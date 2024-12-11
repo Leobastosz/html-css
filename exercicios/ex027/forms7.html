@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <form action="login.php">
+        <p>
+            <label for="iest">Selecione seu estado:</label><br>
+            <select name="estado" id="iest">
+                <option value="RS">Rio Grande do sul</option>
+                <option value="MJ">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </select>
+        </p>
+        <p><label for="ibio">Nos conte sobre você</label><br>
+        <textarea name="bio" id="ibio" rows="15" cols="30"></textarea>
+        </p>
+        <p>
+            <label for="iusu">Selecione seu usuário</label>
+            <input type="text" name="usu" id="iusu" list="lstusu">
+            <datalist id="lstusu">
+                <option>Rk2p</option>
+                <option>Th3L4w</option>
+                <option>vcell</option>
+            </datalist>
+        </p>
+        
+            <fieldset>
+                <legend>Qual o nome do seu pai?</legend>
+                <p>
+                  <input type="radio" name="pai" id="iluis" value="luis">
+                  <label for="iluis">Luis</label>
+                  <input type="radio" name="pai" id="icarlos" value="carlos">
+                  <label for="icarlos">Carlos</label>
+                  <input type="radio" name="pai" id="ipreto" value="preto">
+                  <label for="ipreto">Preto</label>
+                </p>
+            </fieldset>
+            <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>

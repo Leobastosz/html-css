@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Radio</title>
+    <style>
+        form {
+            max-width: 700px;
+            text-align: center;
+            margin: auto;
+        }
+        #buttons {
+            text-align: center;
+        }
+    </style>
+ </head>
+ <body>
+    <form action="login.php">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="imasc" value="M">
+                <label for="imasc">Masculino</label>
+                <input type="radio" name="sexo" id="ifem" value="F">
+                <label for="ifem">Feminino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esporte de preferência</legend>
+            <p>
+                <input type="checkbox" name="fut" id="ifut">
+                <label for="ifut">Futebol</label>
+                <input type="checkbox" name="vol" id="ivol">
+                <label for="ivol">Vôlei</label>
+                <input type="checkbox" name="bas" id="ibas">
+                <label for="ibas">Basquete</label>
+            </p>
+        </fieldset>
+        
+            <p id="buttons">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </p>
+        
+    </form>
+ </body>
+ </html>
