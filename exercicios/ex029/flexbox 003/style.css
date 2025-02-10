@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+div.conteiner {
+    background-color: aqua;
+    display: flex;
+    flex-flow: row nowrap;
+
+    
+}
+
+div.item {
+   
+    background-color: bisque;
+    flex: auto;
+    width: 200px;
+    height: 200px;
+
+}

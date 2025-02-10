@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div.conteiner {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+div.item {
+   
+    background-color: bisque;
+
+}
