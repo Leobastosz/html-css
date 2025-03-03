@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+div.conteiner {
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+    height: 400px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.item {
+    padding: 40px;
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+div#i4 {
+    align-self: flex-end;
+    order: -4;
+}
+
+div#i5 {
+    align-self: center;
+    order: -1;
+}
+
+div#i2 {
+    align-self: center;
+}
+
+div#i3 {
+    align-self: flex-end;
+    order: 1;
+}
+
+div#i6 {
+    align-self: center;
+    order: 0;
+}
+
+div#i1 {
+    order: 1;
+}
